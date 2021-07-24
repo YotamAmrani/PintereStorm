@@ -5,8 +5,8 @@ The project goal was to create a tool, which eventually will aid designers durin
 project DEMO can be seen here:
 https://drive.google.com/open?id=1H6gIFFglyUADAbtSACEvFcRkv26k3AQM
 
+
+
 Course: AI and ML for interactive products.
-
 Guiding: Michael Fink.
-
 Special thanks to Gilad Schreiber for the web template.
