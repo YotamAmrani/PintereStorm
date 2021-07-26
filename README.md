@@ -16,6 +16,6 @@ Special thanks to Gilad Schreiber for the web template.
 
 
 project files:
-- 'WEB files' - the web GUI files.
+- 'WEB files' - the web GUI and algorithms files.
 - 'Scraping script' - simple scraping script used for collecting elements images (based on pinterest search queries) 
 
