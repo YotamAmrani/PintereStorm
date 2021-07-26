@@ -47,7 +47,12 @@ counter = 0
 for i in range(len(combo)):
     combo[i].discard('none')
 
-
+# ________________________________________________ #
+'''
+given an objects properties list
+the script will run  pinterest search query, and save the nodes relevant image and properties
+into JSON file.
+'''
 def build_vertix(list_of_search):
     df = np.array([['id', 'search_tag', 'img_urls', 'neighbors']])
     df = pd.DataFrame(df)
