@@ -6,10 +6,16 @@ project DEMO can be seen here:
 https://drive.google.com/open?id=1H6gIFFglyUADAbtSACEvFcRkv26k3AQM
 
 
-
-
 Course: AI and ML for interactive products.
 
 Guiding: Michael Fink.
 
 Special thanks to Gilad Schreiber for the web template.
+
+
+
+
+project files:
+- 'WEB files' - the web GUI files.
+- 'Scraping script' - simple scraping script used for collecting elements images (based on pinterest search queries) 
+
