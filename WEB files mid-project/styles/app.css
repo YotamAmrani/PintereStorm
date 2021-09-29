@@ -1,0 +1,302 @@
+body {
+  /* background: url(http://static1.squarespace.com/static/50577ef3e4b093884ee98e7a/t/55e462cbe4b0ce2bb342cd0a/1441030859369/AzzariJarrett_SeptemberFreeBackground.jpg); */
+  background: url(https://www.litmusbranding.com/ast/uploads/2017/11/Sep-2017_3_Brainstorming-1-1-2.jpg);
+  /*background-color: #b383ea;*/
+  background-size: cover;
+  background-position: center;
+}
+
+body,
+html {
+  font-family: "Lato";
+  color: #cb0e0e;
+  height: 100%;
+  width: 100%;
+}
+
+#description {
+  font-family: "Lato";
+  font-size: 1.5em;
+  color: black;
+  text-align: left;
+}
+#content {
+  text-align: center;
+  /*padding-top: 8%;*/
+  text-shadow: 0px 4px 9px white, 0px 5px 14px white, 0px 7px 20px white;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+  text-align: left;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 14px;
+  margin-bottom: 5px;
+  color: white;
+  /* position: fixed; */
+}
+
+h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: left;
+  padding-top: 0px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  padding-bottom: 0px;
+  color: #2c3e50;
+}
+
+#enjoy {
+  text-align: right;
+}
+
+.jumbotron {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+hr {
+  /*width: 400px;*/
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+select {
+  margin-bottom: 1em;
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 2px solid currentcolor;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+  &:focus,
+  &:active {
+    outline: 0;
+    border-bottom-color: red;
+  }
+}
+.content2 {
+  text-align: center;
+  text-shadow: 0px 4px 9px white, 0px 5px 14px white, 0px 7px 20px white;
+}
+
+.mainBox {
+  padding-top: 0.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.cat {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button_holder {
+  text-align: center;
+  padding-top: 1%;
+}
+
+#submit {
+  margin-right: 10px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+#details {
+  color: black;
+}
+
+#list {
+  padding-top: 2%;
+  padding-bottom: 4%;
+  margin: 0 0 3px 0;
+}
+
+.option {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 1.2em;
+}
+
+.right_label {
+  text-align: right;
+}
+
+.left_label {
+  text-align: left;
+}
+
+.top_label {
+  margin-top: 3%;
+}
+
+.category {
+  font-size: 1em;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.month_option {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+.slider::-webkit-fill-lower {
+  background: red;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+#headerCont {
+  background-color: rgba(230, 0, 35, 0.8);
+}
+
+.container {
+  margin-top: 0px;
+}
+
+.thumbnail {
+  height: 120px;
+  width: 150px;
+}
+
+/*  new css */
+.node {
+  background-color: #f1f3f5;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 30px;
+}
+.hover_img {
+  max-width: 150px;
+  display: none;
+  position: relative;
+}
+
+.vertix {
+  margin-left: 4px;
+  width: 100%;
+  height: 200%;
+}
+
+.node:hover {
+  /* background-color: cornflowerblue; */
+  background-color: deepskyblue;
+  position: relative;
+}
+.node:hover .hover_img {
+  position: relative;
+  min-width: 120px !important;
+  max-width: 120px !important;
+  min-height: 120px !important;
+  max-height: 120px !important;
+  display: inline !important;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* margin-bottom: -10px; */
+}
+#nodes_container {
+  padding-top: 200px;
+}
+
+.image_container {
+  display: none;
+  width: 600px;
+  height: 180px;
+  padding-top: 20px;
+}
+
+.node:hover .image_container {
+  display: block;
+  position: absolute;
+  left: -290px;
+  top: -220px;
+  background-color: #f1f3f5;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  /* padding: 1px;	 */
+  padding-top: 20px;
+}
+/* .node:hover .image_container:after{
+	content: "";
+	display: block;
+
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 20px 0 20px;
+	border-color: #f1f1f1 transparent transparent transparent;
+} */
