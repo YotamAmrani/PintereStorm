@@ -10,7 +10,8 @@ import numpy as np
 from time import sleep
 import time
 
-# generate search options
+# generate search options nodes:
+
 _objects = {'table': 1, 'desk': 1, 'stool': 1, 'sofa': 1, 'chair': 1, 'shelf': 1, 'couch': 1,
             'nightstands': 1, 'drawer': 1, 'bench': 1, 'lamp': 1,
             'teapot': 1, 'bottle': 1, 'cup': 1, 'plate': 1, 'fork': 1,
@@ -40,18 +41,25 @@ l_3 = list(_materials.keys())
 l_4 = list(_shape.keys())
 l_5 = list(_colors.keys())
 
+
+# Creating a list of all possible nodes combinations
 combo = [set(e) for e in itertools.product(l_2, l_3, l_4, l_5)]
-# combo2 = [e.discard('none') for e in combo]
-# combo = combo2
+
+# Cleaning up nodes empty sections 
 counter = 0
 for i in range(len(combo)):
     combo[i].discard('none')
 
-# ________________________________________________ #
+# --------------------------------------------------------------------------------------------------------
+
 '''
-given an objects properties list
-the script will run  pinterest search query, and save the nodes relevant image and properties
+For  given object properties list (that represents a node on the graph),
+the script will run pinterest search query (adding it to the URL path), and save the nodes relevant image and properties
 into JSON file.
+
+@params: list_of_search - list of nodes attributes.
+@return: None
+
 '''
 def build_vertix(list_of_search):
     df = np.array([['id', 'search_tag', 'img_urls', 'neighbors']])
@@ -61,6 +69,8 @@ def build_vertix(list_of_search):
     # open webdriver:
     driver = webdriver.Chrome('C:/ProgramData/chocolatey/lib/chromedriver/tools/chromedriver.exe')
     url = 'https://www.pinterest.com/search/pins/?q='
+    
+    # Open the output file
     with open("Output_pins_log.txt", "w") as bu_file:
         for s in list_of_search:
             # temp = s
